@@ -1,2 +1,18 @@
-# word-address-locator-explanation
-This code was created in line with Elnaz Najatishendi's doctoral study and took its final form in May 2024. This code takes addresses (such as provinces, districts, neighborhoods, villages) on a global basis and gives their coordinates (latitude and longitude) with 100% accuracy.
+# world_address_locator
+
+Excel dosyasındaki adreslerden (Dünya bazinda) koordinat (enlem, boylam) bilgisi çıkaran Python paketi.  
+OpenStreetMap (Nominatim) altyapısı ile çalışır.
+
+## Kullanım
+
+```python
+from world_address_locator import process_excel_file
+process_excel_file("adresler.xlsx", "sonuc.xlsx")
+yaml
+Copy
+Edit
+
+
+Projeyi klonladıktan veya indirdikten sonra:
+
+pip install -e .
