@@ -1,0 +1,2 @@
+This file is exactly the same as the world_address_locator file. 
+I am sharing it just to share the explanation.
